@@ -125,6 +125,7 @@ Hosted APIs for many models behind one key, and routers that pick a model for ea
 - [Standard Compute](https://docs.standardcompute.com) - Hosted router for coding agents that serves OpenAI and Anthropic clients from one key, picks a model for each request unless one is pinned, and sells monthly plans with a fixed compute budget, returning HTTP 402 once it is used (`Proprietary`).
 - [UberLLM](https://uberllm.dev/docs/quickstart) - Hosted API that accepts OpenAI and Anthropic wire formats with one key for every model in its catalog, sends each call to a third-party provider, bills what that provider charged from a prepaid balance, and supports per-key spend limits and per-minute rate limits (`Proprietary`).
 - [vLLM Semantic Router](https://github.com/vllm-project/semantic-router) - Policy-driven router from the vLLM project that selects or combines models for each call across local, private, and cloud backends (`Apache-2.0`, `Go`).
+- [Weave Router](https://github.com/weave-os/router) - Proxy that picks a model for each request from the models you enable, accepts Anthropic, OpenAI, and Gemini API formats, and installs into coding agents such as Claude Code, Codex, and Copilot (`Apache-2.0`, `Go`).
 
 ## Inference Gateways
 
